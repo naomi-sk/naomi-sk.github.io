@@ -1,0 +1,12 @@
+---
+title: "Naomi Simon-Kumar Professional Website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# About 
+
+Placeholder
