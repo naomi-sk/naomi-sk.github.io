@@ -1,14 +1,17 @@
-name: "Site YAML"
+name: "Naomi Simon-Kumar"
 output_dir: "."
 navbar:
-  title: "Home"
+  title: "NSK"
   right:
-    - text: "About"
+    - text: "Resume"
       href: about.html
-    - icon: fa-envelope fa-lg
-      href: mailto:<naomi.simonkumar@outlook.com>
     - icon: fa-github fa-lg
       href: http://github.com/naomi-sk
+    - icon: fa-linkedin fa-lg
+      href: https://linkedin.com/in/naomisimonkumar
+    - icon: fa-envelope fa-lg
+      href: mailto:naomi.simonkumar@outlook.com
 output:
   html_document:
-    theme: cerulean
+    theme: flatly
+    css: styles.css

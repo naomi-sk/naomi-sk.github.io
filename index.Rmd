@@ -1,12 +1,29 @@
 ---
-title: "Naomi Simon-Kumar Professional Website"
+title: "Naomi Simon-Kumar"
 output: 
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
-# Initialising website
+# Kia ora and hello
 
-Testing website. Testing update.
+I'm Naomi, a graduate student and researcher from Aotearoa New Zealand. I'm currently based in New York City in the Department of Environmental Health Sciences at Columbia University's Mailman School of Public Health.
+
+My research interests broadly converge around understanding how environmental exposures and climate patterns affect health inequities globally - and how we might leverage such data for public good.  
+
+Prior to joining Mailman, I served as a research and programme officer for the
+International Network for Governmental Science Advice (INGSA), an international organisation dedicated to promoting evidence-informed decision-making.
+
+I hold a Masters in Health Sciences from the University of Auckland, New Zealand, completed in the Department of Epidemiology and Biostatistics. I was also a graduate Provost's Scholar at Worcester College, the University of Oxford, where I studied International Relations and International Development. My research focused on global environmental politics, analysing the impacts of resource abundance and state economic policies on carbon-intensive development. 
+
+
+## Interests
+
+* Climate change and social vulnerability in the Asia-Pacific region
+* Health impacts of extreme weather events
+* Environmental health data science
+* (Eco)Feminist and critical ethics
+
+Outside of academia, I enjoy horror video games, surrealist poetry, and speculative fiction. 
+
