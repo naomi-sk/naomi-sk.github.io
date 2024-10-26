@@ -11,76 +11,68 @@ output:
 ## Education
 
 **Columbia University**  
-MPH in Environmental Health Sciences (2023-2025)  
+MPH in Environmental Health Sciences (2023-2025) <br>
 *Certificate in Applied Biostatistics and Public Health Data Science*  
+- New Zealand Science and Innovation Fulbright Scholar<br>
+- 4.2 GPA<br>
+- Teaching Assistant, Global Health and Sustainable Development<br>
+- Lead Teaching Assistant, Determinants of Health<br>
+- Relevant coursework: Environmental Determinants of Health, Risk Assessment, Analysis of Environmental Health Data, Environmental Health Data Science, Analysis of Categorical Data, Applied Regression I-II, Statistical Computing in SAS, Data Science<br>
 
-- New Zealand Science and Innovation Fulbright Scholar
-- 4.2 GPA
-- Teaching Assistant, Global Health and Sustainable Development
-- Lead Teaching Assistant, Determinants of Health
-- Relevant coursework: Environmental Determinants of Health, Risk Assessment, Analysis of Environmental Health Data, Environmental Health Data Science, Analysis of Categorical Data, Applied Regression I-II, Statistical Computing in SAS, Data Science
-
-**The University of Auckland**  
-Masters in Health Sciences (2023)  
+**The University of Auckland**  <br>
+Masters in Health Sciences (2023)<br>
 *Department of Epidemiology and Biostatistics*  
-
-- New Zealand Health Research Council Scholar
-- Thesis: Applied intersectional frameworks to analyse health disparities among ethnic youth
+- New Zealand Health Research Council Scholar<br>
+- Thesis: Applied intersectional quantitative and qualitative methods to analyse mental health disparities among ethnic youth in Aotearoa New Zealand<br>
 - Grade: A+
+<br>
 
-**The University of Oxford**  
-Visiting Scholar (2019-2020)  
+**The University of Oxford**  <br>
+Visiting Scholar (2019-2020) <br> 
 *Worcester College*  
+- Full scholarship recipient (awarded to one New Zealander)<br>
+- Thesis: "Fuel Rich Nations and the Curse of Carbon Intensive Development"<br>
+- Supervised by Professor Jörg Friedrichs<br>
+- Grade: A<br>
 
-- Full scholarship recipient (awarded to one New Zealander)
-- Thesis: "Fuel Rich Nations and the Curse of Carbon Intensive Development"
-- Supervised by Professor Jörg Friedrichs
-- Grade: A
-
-**The University of Auckland**  
-Bachelor of Arts/Bachelor of Science (2014-2018)  
+**The University of Auckland** 
+Bachelor of Arts/Bachelor of Science (2014-2018)  <br>
 *Political Science and International Relations, Psychology*  
+- New Zealand Prime Minister's Scholar to Asia<br>
+- Exchange at Keio University, Japan (Political Science and International Affairs, Japanese language)<br>
 
-- New Zealand Prime Minister's Scholar to Asia
-- Exchange at Keio University, Japan (Political Science and International Affairs, Japanese language)
-
-## Research Experience
-
+## Research Experience 
 **Research and Program Officer**  
-*The International Network for Governmental Science Advice (INGSA)* | 2020-2023  
-
-Coordinated international research and engagement in science policy across Asia, Africa, and Latin America:
-- Managed international research programs and supervised research fellows
-- Co-authored academic publications and policy reports
-- Organised international workshops and research events
-- Facilitated science diplomacy initiatives globally
+*The International Network for Governmental Science Advice (INGSA)* | 2020-2023
+Coordinated international research and engagement in science policy across Asia, Africa, and Latin America:<br>
+- Managed international research programs and supervised research fellows<br>
+- Co-authored academic publications and policy reports <br>
+- Organised international workshops and research events <br>
+- Facilitated science diplomacy initiatives globally <br>
 
 **Research Associate**  
-*The International Public Policy Observatory (IPPO), London* | 2021-2023  
-
-Researched COVID-19 policy impacts with UK academic consortium:
-- Collaborated with Oxford Blavatnik School of Government
-- Contributed to international research and joint publications
-- Supported UK policymakers on pandemic response
+*The International Public Policy Observatory (IPPO), London* | 2021-2023
+Researched COVID-19 policy impacts with UK academic consortium:<br>
+- Collaborated with Oxford Blavatnik School of Government<br>
+- Contributed to international research and joint publications<br>
+- Supported UK policymakers on pandemic response<br>
 
 **Research Assistant**  
 *University of Auckland* | 2018-2020  
-
-- Project 1: Analysed longitudinal health data from the New Zealand Attitudes and Values Study (60,000+ participants)
-- Project 2: Conducted fieldwork on sustainability and waste management in India, prepared research materials and literature reviews
+- Project 1: Analysed longitudinal health data from the New Zealand Attitudes and Values Study (60,000+ participants)<br>
+- Project 2: Conducted fieldwork on sustainability and waste management in India, prepared research materials and literature reviews<br>
 
 **Consultant**  
 *Oxford Development Consultancy* | 2019  
-
-Advised on green microfinance initiatives:
-- Evaluated investment potential for MAXIMA Microfinance
-- Analysed climate change adaptation in microfinance
-- Developed investor pitches for UK/European markets
+Advised on green microfinance initiatives:<br>
+- Evaluated investment potential for MAXIMA Microfinance<br>
+- Analysed climate change adaptation in microfinance<br>
+- Developed investor pitches for UK/European markets<br>
 
 ## Technical Skills
 
 **Quantitative Analysis**  
-SAS, R, STATA, Python, HTML/CSS
+SAS, R, STATA, Python, HTML/CSS<br>
 
 **Qualitative Analysis**  
 NVivo, Thematic Analysis
