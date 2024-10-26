@@ -11,27 +11,26 @@ output:
 ## Education
 
 **Columbia University**  
-MPH in Environmental Health Sciences (2023-2025), *Certificate in Applied Biostatistics and Public Health Data Science*, 4.2 GPA
+MPH in Environmental Health Sciences (2023-2025), *Certificate in Applied Biostatistics and Public Health Data Science*, 4.2 GPA<br>
 * New Zealand Science and Innovation Fulbright Scholar<br>
 * Teaching Assistant, Global Health and Sustainable Development<br>
 * Lead Teaching Assistant, Determinants of Health<br>
 * Relevant coursework: Environmental Determinants of Health, Risk Assessment, Analysis of Environmental Health Data, Environmental Health Data Science, Analysis of Categorical Data, Applied Regression I-II, Statistical Computing in SAS, Data Science<br>
 
 **The University of Auckland**  <br>
-Masters in Health Sciences (2023), *Department of Epidemiology and Biostatistics*, Grade: A+ <br>
+Masters in Health Sciences, *Department of Epidemiology and Biostatistics*, Grade: A+ <br>
 * New Zealand Health Research Council Scholar<br>
-* Thesis: Applied intersectional quantitative and qualitative methods to analyse mental health disparities among ethnic youth in Aotearoa New Zealand
+* Thesis: Application of intersectional quantitative and qualitative methods analysing mental health disparities among ethnic youth in Aotearoa New Zealand
 <br>
 
-Bachelor of Arts/Bachelor of Science (2020) <br>
+Bachelor of Arts/Bachelor of Science <br>
 *Political Science and International Relations, Psychology*  
 * New Zealand Prime Minister's Scholar to Asia<br>
 * Exchange at Keio University, Japan (Political Science and International Affairs, Japanese language)<br>
 
 **The University of Oxford** <br>
-Visiting Scholar <br> 
-*Worcester College*  
-* Full scholarship recipient (awarded to one New Zealander)<br>
+*Visiting Scholar in International Relations and International Development, Worcester College*  
+* Provost's Scholar: Full scholarship recipient (awarded to one New Zealander annually)<br>
 * Thesis: "Fuel Rich Nations and the Curse of Carbon Intensive Development"<br>
 * Supervised by Professor Jörg Friedrichs<br>
 * Grade: A<br>
