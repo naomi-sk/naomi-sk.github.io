@@ -1,10 +1,10 @@
 name: "Naomi Simon-Kumar"
 output_dir: "."
 navbar:
-  title: "NSK"
+  title: "Naomi Simon-Kumar"
   right:
     - text: "Resume"
-      href: about.html
+      href: resume.html
     - icon: fa-github fa-lg
       href: http://github.com/naomi-sk
     - icon: fa-linkedin fa-lg
