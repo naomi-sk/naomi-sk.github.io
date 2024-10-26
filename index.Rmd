@@ -10,7 +10,7 @@ output:
 
 I'm Naomi, a graduate student and researcher from Aotearoa New Zealand. I'm currently based in New York City in the Department of Environmental Health Sciences at Columbia University's Mailman School of Public Health.
 
-My research interests broadly converge around understanding how environmental exposures and climate patterns affect health inequities globally.
+My research interests broadly converge around understanding the role of environmental exposures and climate patterns in driving health disparities.
 
 Prior to joining Mailman, I served as a research and programme officer for the
 International Network for Governmental Science Advice (INGSA), an international organisation dedicated to promoting evidence-informed decision-making.
