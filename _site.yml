@@ -5,6 +5,8 @@ navbar:
   right:
     - text: "Resume"
       href: resume.html
+    - text: "Problem 2 - Flexdashboard"
+      href: problem2_flexdashboard.html
     - icon: fa-github fa-lg
       href: http://github.com/naomi-sk
     - icon: fa-linkedin fa-lg
