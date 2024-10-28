@@ -34,6 +34,14 @@
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
 <script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet" />
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="site_libs/plotly-binding-4.10.4/plotly.js"></script>
+<script src="site_libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet" />
+<script src="site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
+<link href="site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
 <link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
@@ -293,6 +301,34 @@ $(document).ready(function () {
 <h2>Column</h2>
 <div id="chart-a" class="section level3">
 <h3>Chart A</h3>
+<p>This is a bar chart of the top 10 most frequently reordered
+products.</p>
+<pre class="r"><code>instacart %&gt;%
+  filter(reordered == 1) %&gt;%
+  group_by(product_name) %&gt;%
+  summarise(
+    reorder_count = n(),
+    reorder_rate = mean(reordered)
+  ) %&gt;%
+  arrange(desc(reorder_count)) %&gt;%
+  head(10) %&gt;%
+  plot_ly(
+    x = ~reorder(product_name, reorder_count),
+    y = ~reorder_count,
+    type = &quot;bar&quot;,
+    marker = list(
+      color = ~reorder_count,
+      colorscale = &quot;Viridis&quot;
+    )
+  ) %&gt;%
+  layout(
+    title = &quot;Most Frequently Reordered Products&quot;,
+    xaxis = list(title = &quot;&quot;, tickangle = 45),
+    yaxis = list(title = &quot;Number of Reorders&quot;),
+    margin = list(b = 100)
+  )</code></pre>
+<div class="plotly html-widget html-fill-item" id="htmlwidget-01ebccb295220c12f9dc" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-01ebccb295220c12f9dc">{"x":{"visdat":{"800454a730bc":["function () ","plotlyVisDat"]},"cur_data":"800454a730bc","attrs":{"800454a730bc":{"x":{},"y":{},"marker":{"color":{},"colorscale":"Viridis"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":100,"l":60,"t":25,"r":10},"title":"Most Frequently Reordered Products","xaxis":{"domain":[0,1],"automargin":true,"title":"","tickangle":45,"type":"category","categoryorder":"array","categoryarray":["Limes","Organic Raspberries","Strawberries","Large Lemon","Organic Hass Avocado","Organic Avocado","Organic Baby Spinach","Organic Strawberries","Bag of Organic Bananas","Banana"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Number of Reorders"},"hovermode":"closest","showlegend":false},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":["Banana","Bag of Organic Bananas","Organic Strawberries","Organic Baby Spinach","Organic Avocado","Organic Hass Avocado","Large Lemon","Strawberries","Organic Raspberries","Limes"],"y":[16557,13362,8603,8055,6226,6042,5923,4786,4279,4234],"marker":{"color":[16557,13362,8603,8055,6226,6042,5923,4786,4279,4234],"colorscale":"Viridis","line":{"color":"rgba(31,119,180,1)"}},"type":"bar","error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <div id="column-1" class="section level2" data-width="350">

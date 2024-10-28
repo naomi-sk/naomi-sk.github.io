@@ -29,7 +29,35 @@ Column {data-width=650}
 
 ### Chart A
 
+This is a bar chart of the top 10 most frequently reordered products.
+
 ```{r}
+
+instacart %>%
+  filter(reordered == 1) %>%
+  group_by(product_name) %>%
+  summarise(
+    reorder_count = n(),
+    reorder_rate = mean(reordered)
+  ) %>%
+  arrange(desc(reorder_count)) %>%
+  head(10) %>%
+  plot_ly(
+    x = ~reorder(product_name, reorder_count),
+    y = ~reorder_count,
+    type = "bar",
+    marker = list(
+      color = ~reorder_count,
+      colorscale = "Viridis"
+    )
+  ) %>%
+  layout(
+    title = "Most Frequently Reordered Products",
+    xaxis = list(title = "", tickangle = 45),
+    yaxis = list(title = "Number of Reorders"),
+    margin = list(b = 100)
+  )
+
 
 ```
 
