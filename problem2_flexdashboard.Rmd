@@ -24,14 +24,12 @@ data(instacart)
 # Problem 2: Instacart Flexdashboards
 
 
-Column {data-width=650}
+{data-width=650}
 -----------------------------------------------------------------------
 
 ### Chart A
 
-This is a bar chart of the top 10 most frequently reordered products.
-
-```{r}
+```{r echo=FALSE}
 
 instacart %>%
   filter(reordered == 1) %>%
@@ -61,17 +59,71 @@ instacart %>%
 
 ```
 
-Column {data-width=350}
+{data-width=350}
 -----------------------------------------------------------------------
 
 ### Chart B
 
-```{r}
+
+```{r echo = FALSE}
+
+instacart %>%
+  filter(department == "alcohol") %>%
+  filter(!is.na(days_since_prior_order)) %>%  # Remove first orders
+  mutate(days_since_prior_order = factor(days_since_prior_order, levels = 0:30)) %>%  # Convert to factor
+  count(days_since_prior_order) %>%
+  plot_ly(
+    x = ~days_since_prior_order,
+    y = ~n,
+    type = "scatter",
+    mode = "lines+markers",
+    marker = list(color = viridis::viridis(1)),
+    line = list(color = viridis::viridis(1))
+  ) %>%
+  layout(
+    title = "Alcohol Orders by Days Since Prior Order",
+    xaxis = list(
+      title = "Days Since Prior Order",
+      tickmode = "linear",
+      dtick = 1,
+      categoryorder = "array",
+      categoryarray = 0:30
+    ),
+    yaxis = list(title = "Number of Products"),
+    showlegend = FALSE
+  )
 
 ```
 
 ### Chart C
 
-```{r}
+```{r echo = FALSE}
+
+# Scatter plot for snacks by aisle
+
+instacart %>%
+  filter(department == "snacks") %>%
+  mutate(is_organic = ifelse(str_detect(tolower(product_name), "organic"), 
+                            "Organic", "Non-Organic")) %>%
+  count(aisle, is_organic) %>%
+  arrange(desc(n)) %>%
+  plot_ly(
+    x = ~n,
+    y = ~aisle,
+    color = ~is_organic,
+    colors = "viridis",
+    type = 'scatter',
+    mode = 'markers',
+    hoverinfo = 'text',
+    text = ~paste('Aisle:', aisle,
+                  '<br>Type:', is_organic,
+                  '<br>Number of Products:', n)
+  ) %>%
+  layout(
+    title = "Organic vs. Non-organic snack orders by aisle",
+    xaxis = list(title = "Number of Products"),
+    yaxis = list(title = ""),
+    showlegend = TRUE
+  )
 
 ```
